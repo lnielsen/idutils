@@ -14,6 +14,13 @@
 Changes
 =======
 
+Version 0.2.5 (2017-11-15)
+
+- Adds support for new style arXiv identifiers with class, such as e.g.
+  arXiv:hep-th/1601.07616. These identifiers are technical invalid according to
+  the arXiv identifier specification, however they do occur in the frequently in
+  the literature as seen on e.g. INSPIRE.
+
 Version 0.2.4 (2017-01-30)
 
 - Removes `Python 3.3` from a list of supported Python versions and
